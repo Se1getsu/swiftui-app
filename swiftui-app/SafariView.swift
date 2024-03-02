@@ -4,7 +4,7 @@
 //  
 //  Created by Seigetsu on 2024/03/02
 //  
-//
+// 参考: https://github.com/basememara/ZamzamKit/blob/9f0a80a8dd26e879c134e98aa3732ad9c725b2e0/Sources/ZamzamUI/Sheets/SafariSheet.swift
 
 import SwiftUI
 import SafariServices
