@@ -51,6 +51,15 @@ struct AlphaView: View {
             
             Spacer()
             
+            // うっすく区切り線がつく
+            Divider()
+            
+            // こっちの方が見やすいしカスタマイズ性も高そう
+            Rectangle()
+                .frame(height: 1.0)
+                .padding(.bottom, 10)
+                .foregroundStyle(.cyan)
+            
             // MARK: Buttonの書き方(1)
             Button("ボタン") {
                 text = "こんばんは"
