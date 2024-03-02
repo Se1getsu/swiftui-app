@@ -15,6 +15,10 @@ struct ContentView: View {
                 .tabItem {
                     Label("アルファ", systemImage: "app")
                 }
+            BetaView()
+                .tabItem {
+                    Label("ベータ", systemImage: "app")
+                }
         }
     }
 }
