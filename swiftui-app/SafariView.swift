@@ -20,7 +20,7 @@ fileprivate struct SafariView: UIViewControllerRepresentable {
 }
 
 extension View {
-    func sheet(safari url: Binding<URL?>) -> some View {
+    func fullScreenCover(safari url: Binding<URL?>) -> some View {
         // モーダル遷移は .sheet
         // 全画面モーダルは .fullScreenCover
         fullScreenCover(

@@ -25,7 +25,7 @@ struct BetaView: View {
                     .clipShape(Capsule())
             }
         )
-        .sheet(safari: $link)
+        .fullScreenCover(safari: $link)
     }
 }
 
