@@ -13,6 +13,7 @@
 		A6435C052B90B0710039EACA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6435C042B90B0710039EACA /* Preview Assets.xcassets */; };
 		A6435C0C2B90BE470039EACA /* AlphaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6435C0B2B90BE470039EACA /* AlphaView.swift */; };
 		A6435C0E2B90C1BD0039EACA /* BetaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6435C0D2B90C1BD0039EACA /* BetaView.swift */; };
+		A65879382B936CF200D1B7EB /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65879372B936CF200D1B7EB /* SafariView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		A6435C042B90B0710039EACA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A6435C0B2B90BE470039EACA /* AlphaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphaView.swift; sourceTree = "<group>"; };
 		A6435C0D2B90C1BD0039EACA /* BetaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetaView.swift; sourceTree = "<group>"; };
+		A65879372B936CF200D1B7EB /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				A6435BFF2B90B0700039EACA /* ContentView.swift */,
 				A6435C0B2B90BE470039EACA /* AlphaView.swift */,
 				A6435C0D2B90C1BD0039EACA /* BetaView.swift */,
+				A65879372B936CF200D1B7EB /* SafariView.swift */,
 				A6435C012B90B0710039EACA /* Assets.xcassets */,
 				A6435C032B90B0710039EACA /* Preview Content */,
 			);
@@ -147,6 +150,7 @@
 				A6435C002B90B0700039EACA /* ContentView.swift in Sources */,
 				A6435BFE2B90B0700039EACA /* swiftui_appApp.swift in Sources */,
 				A6435C0C2B90BE470039EACA /* AlphaView.swift in Sources */,
+				A65879382B936CF200D1B7EB /* SafariView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

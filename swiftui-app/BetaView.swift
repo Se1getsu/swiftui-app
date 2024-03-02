@@ -9,8 +9,23 @@
 import SwiftUI
 
 struct BetaView: View {
+    @State private var link: URL?
+    
     var body: some View {
-        Text("Hello, World!")
+        Button(
+            action: {
+                link = URL(string: "https://github.com/Se1getsu")
+            },
+            label: {
+                Text("Safariを開く")
+                    .padding()
+                    .fontWeight(.bold)
+                    .foregroundStyle(.white)
+                    .background(.blue)
+                    .clipShape(Capsule())
+            }
+        )
+        .sheet(safari: $link)
     }
 }
 
