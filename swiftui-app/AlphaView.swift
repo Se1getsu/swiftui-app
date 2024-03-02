@@ -21,6 +21,20 @@ struct AlphaView: View {
                 .resizable()
                 // 画面に収まるようにして！
                 .aspectRatio(contentMode: .fit)
+                // 円形に切り取る
+                .clipShape(Circle())
+                // 上から円を重ねる
+                .overlay {
+                    Circle()
+                        .stroke(
+                            .linearGradient(
+                                colors: [.red, .blue],
+                                startPoint: .topLeading,
+                                endPoint: .bottomTrailing
+                            ),
+                            lineWidth: 4.0
+                        )
+                }
             
             // MARK: ラベル
             Text(text)
@@ -32,6 +46,8 @@ struct AlphaView: View {
                 // 背景色・文字色
                 .background(Color.purple)
                 .foregroundStyle(.white)
+                // 影
+                .shadow(radius: 16)
             
             Spacer()
             
