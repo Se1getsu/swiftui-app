@@ -23,6 +23,10 @@ struct ContentView: View {
                 .tabItem {
                     Label("プッシュ遷移", systemImage: "arrow.left.arrow.right.square")
                 }
+            SplitTransitView()
+                .tabItem {
+                    Label("SplitView", systemImage: "arrow.left.arrow.right.square")
+                }
         }
     }
 }
