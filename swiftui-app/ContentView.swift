@@ -19,6 +19,10 @@ struct ContentView: View {
                 .tabItem {
                     Label("ベータ", systemImage: "app")
                 }
+            PushTransitView()
+                .tabItem {
+                    Label("プッシュ遷移", systemImage: "arrow.left.arrow.right.square")
+                }
         }
     }
 }
