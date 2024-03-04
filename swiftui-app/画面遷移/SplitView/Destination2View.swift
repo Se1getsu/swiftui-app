@@ -15,7 +15,7 @@ struct Destination2View: View {
         Text("Destination 2")
             .font(.title2).fontWeight(.semibold)
             .foregroundStyle(color)
-            .navigationTitle(color.description)
+            .navigationTitle(color.description.capitalized)
     }
 }
 
