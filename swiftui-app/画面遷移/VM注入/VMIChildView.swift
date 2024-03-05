@@ -8,11 +8,11 @@
 
 import SwiftUI
 
-struct VMIChildView: View {
+struct VMIChildView<ViewModel>: View where ViewModel: VMIViewModelProtocol {
     @Environment(\.dismiss) private var dismiss
-    @StateObject private var viewModel: VMIViewModel
+    @StateObject private var viewModel: ViewModel
     
-    init(viewModel: @autoclosure @escaping () -> VMIViewModel) {
+    init(viewModel: @autoclosure @escaping () -> ViewModel) {
         _viewModel = StateObject(wrappedValue: viewModel())
     }
 

@@ -21,6 +21,7 @@
 		A6EB3E872B9741D500B5AAB7 /* VMIParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EB3E862B9741D500B5AAB7 /* VMIParentView.swift */; };
 		A6EB3E892B97425C00B5AAB7 /* VMIChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EB3E882B97425C00B5AAB7 /* VMIChildView.swift */; };
 		A6EB3E8B2B975E7400B5AAB7 /* VMIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EB3E8A2B975E7400B5AAB7 /* VMIViewModel.swift */; };
+		A6EB3E912B97668600B5AAB7 /* VMIViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EB3E902B97668600B5AAB7 /* VMIViewModelProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		A6EB3E862B9741D500B5AAB7 /* VMIParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMIParentView.swift; sourceTree = "<group>"; };
 		A6EB3E882B97425C00B5AAB7 /* VMIChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMIChildView.swift; sourceTree = "<group>"; };
 		A6EB3E8A2B975E7400B5AAB7 /* VMIViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMIViewModel.swift; sourceTree = "<group>"; };
+		A6EB3E902B97668600B5AAB7 /* VMIViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMIViewModelProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 				A6EB3E862B9741D500B5AAB7 /* VMIParentView.swift */,
 				A6EB3E882B97425C00B5AAB7 /* VMIChildView.swift */,
 				A6EB3E8A2B975E7400B5AAB7 /* VMIViewModel.swift */,
+				A6EB3E902B97668600B5AAB7 /* VMIViewModelProtocol.swift */,
 			);
 			path = "VM注入";
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 				A6EB3E8B2B975E7400B5AAB7 /* VMIViewModel.swift in Sources */,
 				A6EB3E7B2B959A4100B5AAB7 /* Destination1View.swift in Sources */,
 				A65879382B936CF200D1B7EB /* SafariView.swift in Sources */,
+				A6EB3E912B97668600B5AAB7 /* VMIViewModelProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
