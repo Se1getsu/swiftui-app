@@ -10,11 +10,12 @@ import SwiftUI
 
 struct VMIChildView<ViewModel>: View where ViewModel: VMIViewModelProtocol {
     @Environment(\.dismiss) private var dismiss
-    @StateObject private var viewModel: ViewModel
+    @StateObject var viewModel: ViewModel
     
-    init(viewModel: @autoclosure @escaping () -> ViewModel) {
-        _viewModel = StateObject(wrappedValue: viewModel())
-    }
+    /// 以下の`init`を記述すれば`viewModel`を private にできる
+//    init(viewModel: @autoclosure @escaping () -> ViewModel) {
+//        _viewModel = StateObject(wrappedValue: viewModel())
+//    }
 
     var body: some View {
         Button("戻る") { dismiss() }
