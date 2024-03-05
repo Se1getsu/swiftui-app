@@ -8,7 +8,7 @@
 
 import Foundation
 
-class ViewModel: ObservableObject {
+class VMIViewModel: ObservableObject {
     private let index: Int
     
     init(index: Int) {
@@ -22,7 +22,7 @@ class ViewModel: ObservableObject {
 }
 
 /// デバッグ用プロパティ
-extension ViewModel {
+extension VMIViewModel {
     private static var idMap = [ObjectIdentifier: Character]()
     
     /// viewModel のメモリ上の ID に A, B, C, D, ... の文字を対応付けて返す

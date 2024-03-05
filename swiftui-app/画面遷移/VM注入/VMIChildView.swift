@@ -10,9 +10,9 @@ import SwiftUI
 
 struct VMIChildView: View {
     @Environment(\.dismiss) private var dismiss
-    @StateObject private var viewModel: ViewModel
+    @StateObject private var viewModel: VMIViewModel
     
-    init(viewModel: @autoclosure @escaping () -> ViewModel) {
+    init(viewModel: @autoclosure @escaping () -> VMIViewModel) {
         _viewModel = StateObject(wrappedValue: viewModel())
     }
 
@@ -25,5 +25,5 @@ struct VMIChildView: View {
 }
 
 #Preview {
-    VMIChildView(viewModel: ViewModel(index: 1))
+    VMIChildView(viewModel: VMIViewModel(index: 1))
 }
