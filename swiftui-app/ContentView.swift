@@ -27,6 +27,10 @@ struct ContentView: View {
                 .tabItem {
                     Label("SplitView", systemImage: "arrow.left.arrow.right.square")
                 }
+            VMIParentView()
+                .tabItem {
+                    Label("V注入", systemImage: "arrow.left.arrow.right.square")
+                }
         }
     }
 }

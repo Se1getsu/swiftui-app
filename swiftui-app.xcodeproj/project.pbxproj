@@ -18,6 +18,9 @@
 		A6EB3E7D2B9600B700B5AAB7 /* PushTransitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EB3E7C2B9600B700B5AAB7 /* PushTransitView.swift */; };
 		A6EB3E802B96071100B5AAB7 /* SplitTransitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EB3E7F2B96071100B5AAB7 /* SplitTransitView.swift */; };
 		A6EB3E822B96072900B5AAB7 /* Destination2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EB3E812B96072900B5AAB7 /* Destination2View.swift */; };
+		A6EB3E872B9741D500B5AAB7 /* VMIParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EB3E862B9741D500B5AAB7 /* VMIParentView.swift */; };
+		A6EB3E892B97425C00B5AAB7 /* VMIChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EB3E882B97425C00B5AAB7 /* VMIChildView.swift */; };
+		A6EB3E8B2B975E7400B5AAB7 /* VMIViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EB3E8A2B975E7400B5AAB7 /* VMIViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,9 @@
 		A6EB3E7C2B9600B700B5AAB7 /* PushTransitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushTransitView.swift; sourceTree = "<group>"; };
 		A6EB3E7F2B96071100B5AAB7 /* SplitTransitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitTransitView.swift; sourceTree = "<group>"; };
 		A6EB3E812B96072900B5AAB7 /* Destination2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination2View.swift; sourceTree = "<group>"; };
+		A6EB3E862B9741D500B5AAB7 /* VMIParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMIParentView.swift; sourceTree = "<group>"; };
+		A6EB3E882B97425C00B5AAB7 /* VMIChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMIChildView.swift; sourceTree = "<group>"; };
+		A6EB3E8A2B975E7400B5AAB7 /* VMIViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMIViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,7 @@
 			children = (
 				A6EB3E762B9599CB00B5AAB7 /* プッシュ遷移 */,
 				A6EB3E7E2B9606E700B5AAB7 /* SplitView */,
+				A6EB3E852B9741B000B5AAB7 /* VM注入 */,
 			);
 			path = "画面遷移";
 			sourceTree = "<group>";
@@ -111,6 +118,16 @@
 				A6EB3E812B96072900B5AAB7 /* Destination2View.swift */,
 			);
 			path = SplitView;
+			sourceTree = "<group>";
+		};
+		A6EB3E852B9741B000B5AAB7 /* VM注入 */ = {
+			isa = PBXGroup;
+			children = (
+				A6EB3E862B9741D500B5AAB7 /* VMIParentView.swift */,
+				A6EB3E882B97425C00B5AAB7 /* VMIChildView.swift */,
+				A6EB3E8A2B975E7400B5AAB7 /* VMIViewModel.swift */,
+			);
+			path = "VM注入";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,8 +205,11 @@
 				A6435C0E2B90C1BD0039EACA /* BetaView.swift in Sources */,
 				A6435C002B90B0700039EACA /* ContentView.swift in Sources */,
 				A6435BFE2B90B0700039EACA /* swiftui_appApp.swift in Sources */,
+				A6EB3E892B97425C00B5AAB7 /* VMIChildView.swift in Sources */,
+				A6EB3E872B9741D500B5AAB7 /* VMIParentView.swift in Sources */,
 				A6435C0C2B90BE470039EACA /* AlphaView.swift in Sources */,
 				A6EB3E802B96071100B5AAB7 /* SplitTransitView.swift in Sources */,
+				A6EB3E8B2B975E7400B5AAB7 /* VMIViewModel.swift in Sources */,
 				A6EB3E7B2B959A4100B5AAB7 /* Destination1View.swift in Sources */,
 				A65879382B936CF200D1B7EB /* SafariView.swift in Sources */,
 			);
