@@ -9,11 +9,19 @@
 import Foundation
 
 class ViewModel: ObservableObject {
-    init() { print("ViewModel \(idChar) init") }
-    deinit { print("ViewModel \(idChar) deinit") }
+    private let index: Int
+    
+    init(index: Int) {
+        self.index = index
+        print("ViewModel \(idChar) init")
+    }
+    
+    deinit {
+        print("ViewModel \(idChar) deinit")
+    }
 }
 
-/// デバッグ用プロパティ`idChar` の実装
+/// デバッグ用プロパティ
 extension ViewModel {
     private static var idMap = [ObjectIdentifier: Character]()
     
@@ -22,5 +30,9 @@ extension ViewModel {
         let objectID = ObjectIdentifier(self)
         Self.idMap[objectID] = Self.idMap[objectID] ?? Character(UnicodeScalar(UInt32(0x41 + Self.idMap.count))!)
         return Self.idMap[objectID]!.description
+    }
+    
+    var idString: String {
+        "\(index) - \(idChar)"
     }
 }

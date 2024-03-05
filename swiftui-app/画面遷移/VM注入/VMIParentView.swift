@@ -13,7 +13,7 @@ struct VMIParentView: View {
         NavigationView {
             List(1...3, id: \.self) { index in
                 NavigationLink {
-                    VMIChildView(viewModel: ViewModel(), index: index)
+                    VMIChildView(viewModel: ViewModel(index: index))
                 } label: {
                     Text("\(index)")
                 }
